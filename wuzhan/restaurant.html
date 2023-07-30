@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五棧小館</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 第一區 header -->
+    <header>
+        <a href="#" class="logo"><img src="images/no_background.png"> 五棧小館</a>
+        <div id="menu-bar" class="fas fa-bars"></div> <!-- 使用 Font Awesome -->
+            <!-- ↑REW時的按鈕 -->
+            <nav class="navbar">
+                <a href="#home">本周主打</a>
+                <a href="#category">料理</a>
+                <a href="#menu">菜單</a>
+                <a href="#gallery">美食圖片</a>
+                <a href="#review">評論</a>
+                <a href="#order">訂購</a>
+                <a href="login.html">登入</a>
+            </nav>        
+    </header>
+
+    <!-- 第二區 首頁 -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>五棧小館</h3>
+            <p>台北市內湖區文湖街81巷6號</p>
+            <a href="#" class="btn">立即訂購</a>
+        </div>
+        <!-- <img src="images/pork_rice.png" alt=""> -->
+    </section>
+
+    <!-- 第三區 料裡 -->
+    <section class="category" id="category">
+        <h1 class="heading"> 五棧小館<span>料理</span></h1>
+        <div class="box-container">
+            <!-- 第一個料理 -->
+            <div class="box">
+                <img class="image" src="images/pig_meet.jpg">
+                <div class="content">
+                    <img src="images/fried.png">
+                    <h3>炸物類</h3>
+                    <p>特調醃料醃製而成，鹹甜清爽不油膩</p>
+
+                </div>
+
+            </div>
+
+            <!-- 第二個料理 -->
+            <div class="box">
+                <img class="image" src="https://i1.wp.com/aniseblog.tw/wp-content/uploads/2016/06/1491769304-3c1253b8725ca62e907c84ffd05da91a.jpg?w=620&ssl=1">
+                <div class="content">
+                    <img src="images/hot_water.png">
+                    <h3>水煮類</h3>
+                    <p>水煮白切肉，肥瘦分布均勻，鮮嫩彈牙</p>
+
+                </div>
+
+            </div>
+
+             <!-- 第三個料理 -->
+             <div class="box">
+                <img class="image" src="images/don_po_meet.jpg">
+                <div class="content">
+                    <img src="images/pot.png">
+                    <h3>滷肉類</h3>
+                    <p>鹹香可口不死鹹，滿滿的家鄉味</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 第四區 菜單 -->
+    <section class="menu" id="menu">
+        <h1 class="heading"> 五棧小館<span>菜單</span></h1>
+        <div class="box-container">
+            <!-- 1號餐 -->
+            <div class="box">
+                <span class="price">$150</span>
+                <img src="images/pig_meet.jpg">
+                <h3>炸排骨便當</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i> <!-- 把 fas 改成 far 那顆星星就變空白 -->
+                
+                </div>
+                <div href="#" class="btn2">訂購</div>
+                
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+            </div>
+
+            <!-- 2號餐 -->
+            <div class="box">
+                <span class="price">$150</span>
+                <img src="images/white_meet.jpg">
+                <h3>白切肉便當</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i> <!-- 把 fas 改成 far 那顆星星就變空白 -->
+                
+                </div>
+                <div href="#" class="btn2">訂購</div>
+                
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+            
+            </div>
+
+            <!-- 3號餐 -->
+            <div class="box">
+                <span class="price">$150</span>
+                <img src="images/don_po_meet.jpg">
+                <h3>東坡肉便當</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i> <!-- 把 fas 改成 far 那顆星星就變空白 -->
+                
+                </div>
+                <div href="#" class="btn2">訂購</div>
+                
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+            
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- 第五區 圖片 -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading"> 五棧小館<span>美食圖片</span></h1>
+        <div class="box-container">
+            <!-- 第一張圖片 -->
+            <div class="box">
+                <img src="images/pig_meet.jpg" alt="">
+                <div class="content">
+                    <h3>炸排骨便當</h3>
+                    <p>特調醃料醃製而成，鹹甜清爽不油膩</p>
+
+                </div>
+            </div>
+
+            <!-- 第二張圖片 -->
+            <div class="box">
+                <img src="images/white_meet.jpg" alt="">
+                <div class="content">
+                    <h3>白切肉便當</h3>
+                    <p>水煮白切肉，肥瘦分布均勻，鮮嫩彈牙</p>
+
+                </div>
+            </div>
+
+            <!-- 第三張圖片 -->
+            <div class="box">
+                <img src="images/don_po_meet.jpg">
+                <div class="content">
+                    <h3>東坡肉便當</h3>
+                    <p>鹹香可口不死鹹，滿滿的家鄉味</p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- 第六區 評論 -->
+    <section class="review" id="review">
+        <h1 class="heading"> 五棧小館<span>美食評論</span></h1>
+        <div class="box-container">
+            <!-- 第一個評論 -->
+            <div class="box">
+                <img src="images/boy1.png">
+                <h3>陳曉明</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>點了雞腿便當，真好吃，一直吃!</p>
+            </div>
+
+            <!-- 第二個評論 -->
+            <div class="box">
+                <img src="images/girl.jpg">
+                <h3>黃筱慧</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>吃完滿滿家鄉味。真懷念</p>
+            </div>
+
+            <!-- 第三個評論 -->
+            <div class="box">
+                <img src="images/boy2.png">
+                <h3>Allen Wu</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Sooooooo...yummy!</p>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- 第七區 訂購 -->
+    <section class="order" id="order">
+        <h1 class="heading"> 五棧小館<span>訂購</span></h1>
+        <div class="box-container">
+            <div class="row">
+                <div class="image">
+                    <img src="images/wu_chan_insign.jpg">
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="姓名">
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="number" placeholder="電話">
+                        <input type="text" placeholder="取餐時間">
+                    </div>
+                    <!-- textarea最底下的大空格 cols寬 rows高 -->
+                    <textarea name="" id="" cols="30" rows="10">  
+
+
+                    </textarea>
+                    <input type="submit" value="訂購" class="btn3">
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第八區 footer -->
+    <section class="footer" id="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-square" style="color: blue; font-size: 30px;"></i></a>
+            <a href="#"><i class="fab fa-instagram-square" style="color: rgb(0, 0, 0); font-size: 30px;"></i></a>
+            <a href="#"><i class="fab fa-line" style="color: rgba(21, 242, 25, 0.871); font-size: 30px;"></i></a>
+        </div>
+        <h1 class="credit">由 <span>Leo Wu設計</span> 版權所有&copy;</h1>
+
+    </section>
+
+    <!-- 回上層按鈕 -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-up"></a>
+
+</body>
+    <!-- JS連結 -->
+    <script src="js/script.js"></script>
+
+</html>
